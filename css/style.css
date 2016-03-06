@@ -1,0 +1,89 @@
+/* This is a CSS comment */
+body {
+	min-height: 1000px;
+	background-color: #d4d4d4;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	
+	background-attachment: fixed;
+	font-family: Verdana, Geneva, sans-serif;
+}
+@media screen and (orientation: portrait) {
+	body {
+background-size: auto 100%;
+
+	}
+}
+
+.main {
+max-width: 600px;
+background-color: rgba(255,255,255,0.6);
+box-shadow: 0 0 20px 5px black;
+border-radius: 20px;
+margin: 0 auto;
+padding: 20px;
+
+}
+	h1 {
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+		text-transform: uppercase;
+	letter-spacing: 5px;
+		border-bottom: 2px solid black;
+		padding-bottom: 20px;
+	}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+	font-size: 17px;
+
+}
+img {
+	border: 2px dashed #000000;
+	border-radius: 0 50%;
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+}
+
+h3 {
+	cursor: pointer;
+	margin-bottom: 0;
+}
+h3 { 
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 14px;
+ }
+
+ul,
+ol,
+p {list-style: none;
+	padding-left: 0;
+	line-height: 1.5;
+	font-weight: normal;
+	font-size: 11px;
+}
+	font-family: 'Raleway', sans-serif;
+
+}
+
+a {
+	color: #000000;
+	font font-weight: bold;
+	text-decoration: none;
+}
+	
+a:hover,
+a:focus,
+a:visited {
+color: #000000;
+text-decoration: underline;
+
+}
